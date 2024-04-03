@@ -8,6 +8,7 @@ def ask_question(question):
     headers = {"Content-Type": "application/json"}
     data = {"question": question}
     
+	
     response = requests.post(url, headers=headers, data=json.dumps(data))
     print("the response is", response)
     print("Response content:", response.content)
