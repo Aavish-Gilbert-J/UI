@@ -4,7 +4,7 @@ import json
 import streamlit as st
 
 def ask_question(question):
-    url = "https://38e4-1-6-74-117.ngrok-free.app/chat"  # Change this URL to your Google AI Studio endpoint
+    url = "https://c0d2-1-6-74-117.ngrok-free.app"  # Change this URL to your Google AI Studio endpoint
     headers = {"Content-Type": "application/json"}
     data = {"question": question}
     
